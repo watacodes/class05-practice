@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 2rem;
+}
+
+header,
+.section1, 
+footer {
+    clear: both;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background: red;
+}
+
+.section1 {
+    height: 250px;
+    width: 100%;
+    background: burlywood;
+}
+
+.section2 {
+    height: 500px;
+    width: 30%;
+    background: blanchedalmond;
+    float: left;
+}
+
+.section3 {
+    height: 500px;
+    width: 70%;
+    background: blue;
+    float: left;
+}
+
+footer {
+    background: indigo;
+    height: 125px;
+}
+
