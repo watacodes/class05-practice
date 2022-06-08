@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-container {
+    text-align: center;
+}
+
+header,
+footer {
+    height: 100px;
+    background: red;
+    clear: both;
+}
+
+.section1,
+.section2,
+.section3 {
+    height: 300px;
+    width: 33.3333%;
+    float: left;
+}
+
+.section1 {
+    background: blue;
+}
+
+.section2 {
+    background: antiquewhite;
+}
+
+.section3 {
+    background: cadetblue;
+}
+
+.article1,
+.article2 {
+    height: 450px;
+    width: 50%;
+    float: left;
+}
+
+.article1 {
+    background: chocolate;
+}
+
+.article2 {
+    background: olive;
+}
