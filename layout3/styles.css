@@ -10,7 +10,7 @@ header,
 footer {
     width: 100%;
     height: 175px;
-    background-color: aquamarine;
+    background-color: rgb(233, 179, 31);
     clear: both;
 }
 
@@ -38,4 +38,34 @@ footer {
 
 .sec-4 {
     background: goldenrod;
+}
+
+@media screen and (max-width: 900px) {
+    header,
+    footer {
+        height: 125px;
+    }
+
+    .sec-1,
+    .sec-2,
+    .sec-3,
+    .sec-4 {
+        width: 100%;
+    }
+
+    .sec-1 {
+        background: goldenrod;
+    }
+
+    .sec-2 {
+        background: plum;
+    }
+
+    .sec-3 {
+        background: burlywood;
+    }
+
+    .sec-4 {
+        background: aquamarine;
+    }
 }
