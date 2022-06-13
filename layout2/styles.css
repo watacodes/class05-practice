@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    font-size: 2rem;
 }
 
 header,
@@ -43,3 +42,30 @@ footer {
     height: 125px;
 }
 
+@media screen and (max-width: 600px) {
+    .section2,
+    .section3 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .section2,
+    .section3 {
+        width: 100%;
+        background: olive;
+    }
+
+    .section3 {
+        background: beige;
+    }
+
+    .section1 {
+        height: 150px;
+    }
+
+    header,
+    footer {
+        height: 75%;
+    }
+}
