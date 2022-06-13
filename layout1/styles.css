@@ -49,3 +49,31 @@ footer {
 .article2 {
     background: olive;
 }
+
+@media screen and (max-width: 1000px) {
+    
+    .section1 {
+        background: antiquewhite;
+    }
+    
+    .section2 {
+        background: cadetblue;
+    }
+    
+    .section3 {
+        background: blue;
+    }
+
+    .article1 {
+        background: olive;
+    }
+
+    .article2 {
+        background: chocolate;
+    }
+        
+}
+
+@media screen and (max-width: 600px) {
+    
+}
